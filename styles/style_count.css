@@ -1,0 +1,184 @@
+/* Google Fonts */
+
+/* 
+    font-family: 'Fira Sans', sans-serif;;
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+html, body, .wrapper {
+	height: 100%;
+}
+
+h3 {
+	text-align: center;
+}
+
+.wrapper {
+	background-color: #E0E0E0;
+}
+
+header {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.3% 2%;
+	background-color: black;
+}
+
+a.LL {
+	text-decoration: none;
+	color: #8C334B; 
+	font-size: 35px;
+}
+
+a.LL > span {
+	font-size: 22px;
+	color: white;
+}
+
+header > a > img {
+	width: 60px;
+	float: right;
+}
+
+/* p.LEVLoyality {
+	font-size: 15px;
+	text-shadow: 0px 0px 5px white;
+	color: white;
+}
+
+p.LEVLoyality > span {
+	font-size: 22px;
+} */
+
+div.wrapper2 {
+	padding: 0 0.8%;
+
+}
+
+div.content {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	outline: 2px solid gray;
+	margin-top: 0.6%;
+	padding: 1%;
+}
+
+div.select {
+	background-color:  #d8d4d4;
+	outline: 2px solid black;
+	padding: 0.6%;
+}
+
+ul.select {
+	list-style-type: none;
+}
+
+ul.select > li {
+	margin-bottom: 3%;
+	display: flex;
+	justify-content: center;
+}
+ul.select > li > a {
+	/* display: block; */
+	text-decoration: none;
+	/* text-align: center; */
+	color: black;
+	font-size: 22px;
+	transition: all .3s;
+}
+
+ul.select > li > a:hover {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #8b58ff ; 
+	transition: all .3s;
+	color: #8b58ff;
+	cursor: pointer;
+}
+
+div.mainContent {
+	width: 100%;
+	margin-left: 2%; 
+}
+
+div.buttonsCustomers, div.buttonsProducts {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+div.buttonsProducts {
+	display: none;
+}
+
+a.add, input.delete, a.change, a.buy {
+	display: block;
+	padding: 8px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 1%;
+	font-size: 20px;
+	font-weight: bold;
+	transition: all .2s;
+	/* border-radius: 25%; */
+	outline: 0;
+	border: 0;
+}
+
+a.add:hover, input.delete:hover, a.change:hover, a.buy:hover {
+	cursor: pointer;
+	box-shadow: 0px 0px 5px 0px black;
+	transition: all .2s;
+	transform: scale(1.03);
+}
+
+div.buttonsCustomers > a.add, div.buttonsProducts > a.add {
+	background-color: #20e229;
+}
+
+div.buttonsCustomers > input.delete, div.buttonsProducts > input.delete {
+	background-color: #ff3f19 ;
+}
+
+div.buttonsCustomers > a.change, div.buttonsProducts > a.change {
+	background-color: #efdd42;
+}
+
+div.buttonsCustomers > a.buy, div.buttonsProducts > a.buy {
+	background-color: blue;
+}
+
+table.customers, table.cards, table.products {
+	margin-top: 1%;
+	border: 1px solid black;
+	width: 100%;
+}
+
+table.cards {
+	display: none;
+	opacity: 0;
+}
+
+table.products {
+	display: none;
+	opacity: 0;
+}
+
+th {
+	background-color:  #b4b4ae ;
+	/* color:  white; */
+}
+
+tr {
+	border-bottom: 1px solid black;
+}
